@@ -1,0 +1,34 @@
+      @font-face {
+  font-family: 'Source Code Pro';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Source Code Pro Medium'), local('SourceCodePro-Medium'), url(fonts/sourcecodepro500.woff) format('woff');
+      }
+      body {
+        padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+      }
+      .warnings {
+        font-family: "Source Code Pro";
+        font-size: 10pt;
+      }
+      .popover {max-width:40em;}
+      .sequence {
+        font-family: "Source Code Pro";
+        font-size: 12pt;
+      }
+.ui-widget .ui-seqspinner-input {
+    border: none;
+    background: none;
+    padding: 0;
+    margin: .2em 0;
+    vertical-align: middle;
+    margin-left: .4em;
+    font-family: "Source Code Pro";
+    font-size: 10pt;
+    margin-right: 35px;
+}
+.hideswitch, .flipswitch {float: right;}
+.ui-seqspinner-temp {
+    position: absolute;
+    right: 12px;
+}
